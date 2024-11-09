@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, #f0f0f0, #d9e4f5);
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.home-section {
+    text-align: center;
+    position: fixed;
+    padding: 50px;
+    margin: 50px auto;
+    max-width: 300px;
+    height: 200px;
+    margin-top: 200px;
+    margin-left: 568px;
+
+    background: #504c56;
+
+    border-radius: 8px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.play-button {
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 500px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+.play-button:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background: url('img/bg4.jpg') no-repeat center center fixed;
+    /* Adds the background image */
+    background-size: cover;
+    /* Ensures the image covers the whole page */
+    color: white;
+    /* Adjust text color for better contrast */
+}
+
+
+
+
+.content-section {
+    background: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#hea {
+    color: #ede5b5;
+}
+
+#pa {
+    color: #ede5b5;
+    font-size: 14px;
+}
+
+#copy {
+    color: #ede5b5;
+
+
+}
